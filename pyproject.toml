@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "forensic-sound-analysis"
+version = "0.1.0"
+description = ""
+authors = ["Gede Sudimahendra <54178249+deedima3@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ipykernel = "^6.23.1"
+librosa = "^0.10.0.post2"
+pitch = "^0.0.6"
+praat-parselmouth = "^0.4.3"
+numpy = "^1.24.3"
+matplotlib = "^3.7.1"
+seaborn = "^0.12.2"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
